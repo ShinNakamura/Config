@@ -6,11 +6,11 @@ Python の configparser を使って ini ファイルから設定を読み込む
 
 階層トップの`Config.ini`を標準で読む仕様で全体の制作を進める。
 
-# in Python
+## in Python
 
 Config モジュールとして使用
 
-# コマンドラインツール
+## コマンドラインツール
 
 例えば `./Config.ini` が下記のような内容で置かれていた場合
 
