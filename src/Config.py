@@ -38,3 +38,9 @@ if __name__ == '__main__':
     # ./data # <- 改行なしで印字
     print(reader(config, sys.argv[1:]), end='')
 
+import unittest
+class Test_Config(unittest.TestCase):
+    def test_read_as_old_api(self):
+        config = read()
+        assert reader(config, ["Paths", "datad"]) == "./data"
+
